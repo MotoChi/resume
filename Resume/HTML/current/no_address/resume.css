@@ -64,10 +64,9 @@ h3 {
 #contact_information {
   clear: left;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px 10px 0px;
   border-bottom: thin solid black;
 }
-
 
 #communication {
   text-align: left;
@@ -102,12 +101,12 @@ h3 {
 
 #summary_skills {
   margin: 0px;
-  padding: 5px 0px 5px 0px;
+  padding: 5px 0px 30px 0px;
 }
 
 #summary {
   margin: 0px;
-  padding: 0px 0px 2px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 #skills_left {
@@ -208,6 +207,62 @@ h3 {
 .certified_date {
   margin: 0px;
   padding: 0px;
+}
+
+#portfolio {
+  margin: 0px;
+  padding: 0px;
+}
+
+#portfolio p a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#portfolio p a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#portfolio p a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#portfolio p a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+.portfolio_name {
+  margin: 0px;
+  padding: 0px;
+}
+
+.portfolio_details {
+  margin: 0px 0px 0px 25px;
+  padding: 0px;
+  list-style-position: outside;
+}
+
+.portfolio_details li a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio_details li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio_details li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.portfolio_details li a:active {
+  text-decoration: underline;
+  color: black;
 }
 
 #community_service {
