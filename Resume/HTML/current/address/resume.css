@@ -231,16 +231,55 @@ h3 {
   padding: 0px;
 }
 
+#portfolio p a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#portfolio p a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#portfolio p a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#portfolio p a:active {
+  text-decoration: underline;
+  color: black;
+}
+
 .portfolio_name {
   margin: 0px;
   padding: 0px;
-  font-style: italic;
 }
 
 .portfolio_details {
   margin: 0px 0px 0px 25px;
   padding: 0px;
   list-style-position: outside;
+}
+
+.portfolio_details li a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio_details li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio_details li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.portfolio_details li a:active {
+  text-decoration: underline;
+  color: black;
 }
 
 #community_service {
