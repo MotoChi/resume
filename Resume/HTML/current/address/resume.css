@@ -64,7 +64,7 @@ h3 {
 #contact_information {
   clear: left;
   margin: 0px;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 30px 0px;
   border-bottom: thin solid black;
 }
 
@@ -144,6 +144,7 @@ h3 {
 
 #experience {
   clear: left;
+  padding-top: 5px;
 }
 
 .company {
@@ -280,26 +281,4 @@ h3 {
 .portfolio_details li a:active {
   text-decoration: underline;
   color: black;
-}
-
-#community_service {
-  margin: 0px;
-  padding: 0px;
-}
-
-.service_dates {
-  margin: 0px;
-  padding: 0px;
-}
-
-.service_name {
-  margin: 0px;
-  padding: 0px;
-  font-style: italic;
-}
-
-.service_details {
-  margin: 0px 0px 0px 25px;
-  padding: 0px;
-  list-style-position: outside;
 }
